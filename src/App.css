@@ -1,1 +1,85 @@
+body {
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.home-page {
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.home-page h1 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.home-page hr {
+  border-top: 3px solid white;
+  width: 55%;
+  margin: auto;
+}
+.home-page p {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding: 2em;
+}
+.social-links {
+display: flex;
+justify-content: space-between;
+width: 15%;
+margin: auto;
+padding-bottom: 4em;
+}
+.social-links i {
+  color: white;
+  font-size: 4em;
+  padding: 5px;
+}
+.category-tabs {
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.category-tabs h1{
+text-align: center;
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+}
+.projects-grid {
+  display: flex;
+}
+.contact-page {
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.contact-page h1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+}
+.phone {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  padding: 5px;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+.email {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  padding: 3px;
+  padding-bottom: 1.5em;
+}
+.contact-page hr {
+  border-top: 3px solid white;
+  width: 55%;
+  margin: auto;
+}
+
 
